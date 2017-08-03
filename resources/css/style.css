@@ -3,8 +3,17 @@ header{
   font-size: 14px;
   font-weight: bold;
   display: flex;
+  width: 100%;
 
 }
 .logo {
   color: MediumAquamarine;
+}
+.navi{
+  display: inline-block;
+  color: black;
+}
+
+header.logo{
+
 }
