@@ -9,8 +9,9 @@ header{
   align-items: center;
   border-bottom: 1px solid black;
   position: fixed;
-  z-index: 5;
+  z-index: 1;
   background-color: white;
+  padding: 0;
 
 }
 .logo {
@@ -20,7 +21,8 @@ header{
 
 }
 .logo img{
-  padding: 0 15px;
+  padding-left: 15px;
+  padding-right: 15px;
 
 }
 nav{
@@ -36,7 +38,7 @@ nav li{
 }
 nav li a{
   color: black;
-  padding: 0 10px;
+  padding-left: 10px;
 
 }
 /*End Header Style*/
@@ -72,10 +74,12 @@ p{
 }
 body{
   display: block;
+  margin: 0;
 
 }
 
 .lstoryhead0{
+  display: flex;
   background-position: center;
   background-image: url("../media/img-story-main.png");
   height: 300px;
@@ -83,16 +87,19 @@ body{
 
 }
 .lstoryhead2{
+  display: flex;
   background-image: url("../media/img-story-2.png");
   height: 300px;
 
 }
 .lstoryhead4{
+  display: flex;
   background-image: url("../media/img-story-3.png");
   height: 300px;
 
 }
 .mstoryhead1{
+  display: flex;
   background-image: url("../media/img-story-1.png");
 
 }
@@ -103,6 +110,7 @@ body{
   margin-bottom: 10px;
 
 }
+/*
 .storycontent{
   display: flex;
   flex-direction: column;
@@ -123,15 +131,15 @@ body{
   justify-content: space-between;
   margin-top: 20px;
 }
+
 .lstoryhead1, .lstoryhead2, .lstoryhead3, .lstoryhead4{
   display: flex;
   flex-direction: column;
 
 }
-
+*/
 .content{
   display: flex;
-  flex-direction: column;
   width: 1300px;
   padding-top: 100px;
   margin: 0 auto 75px auto;
@@ -145,6 +153,7 @@ body{
 }
 .column{
   display: flex;
+  flex-direction: row;
 
 }
 .large{
