@@ -1,0 +1,161 @@
+body{
+  font-family: Georgia;
+  font-size: 17px;
+  color: black;
+  margin: 0;
+}
+div{
+  border: 1px solid black;
+}
+
+/*Header section*/
+header{
+  display: flex;
+  font-family: Verdana;
+  font-size: 14px;
+  font-weight: bold;
+  width: 100%;
+  height: 75px;
+  border-bottom: 1px solid black;
+  background-color: white;
+  align-items: center;
+  position: fixed;
+  z-index: 1;
+
+}
+.logo{
+  display: flex;
+  align-items: center;
+  flex-grow: 1;
+  padding-left: 40px;
+
+}
+.logo img{
+  height: 60px;
+  width: 70px;
+  margin-right: 15px;
+
+}
+.logo span{
+  color: MediumAquamarine;
+
+}
+a{
+  color: black;
+
+}
+header nav{
+  padding-right: 45px;
+
+}
+nav span{
+  display: inline-block;
+  padding: 20px 10px;
+
+}
+/*content area*/
+.content{
+  display: flex;
+  padding-top: 100px;
+  width: 1300px;
+  margin: 0 auto 75px auto;
+
+}
+.column{
+  display: flex;
+  flex-direction: column;
+  margin-right: 32px;
+
+}
+.leadstory h1{
+  background-image: url("../media/img-story-main.png");
+  width: 630px;
+  height: 250px;
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 40px;
+  color: white;
+  margin: 0;
+
+}
+h2{
+  margin-top: 0;
+  margin-bottom: 0;
+  font-family: Georgia;
+  font-size: 30px;
+  font-weight: bold;
+  font-style: normal;
+}
+
+.story{
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+
+}
+.news{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 18px;
+
+}
+.news .storytext{
+  height: 250px;
+}
+.storytext{
+  margin-top: 15px;
+
+}
+.storyimg{
+  display: flex;
+  flex-direction: column;
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+  text-align: center;
+  color: white;
+  justify-content: center;
+  text-align: center;
+  height: 300px;
+
+}
+.storyimg.earth{
+  background-image: url("../media/img-story-2.png");
+
+}
+.storyimg.camera{
+  background-image: url("../media/img-story-3.png");
+
+}
+.storyimg.cat{
+  background-image: url("../media/img-story-1.png");
+
+}
+.large{
+  display: flex;
+  flex-direction: column;
+  margin-right: 20px;
+
+}
+.medium{
+  display: flex;
+  flex-direction: column;
+  margin-right: 20px;
+
+}
+.small{
+  display: flex;
+  flex-direction: column;
+
+}
+.column .large {
+  width: 630px;
+}
+
+.column .medium {
+  width: 300px;
+}
+
+.column .small {
+  width: 240px;
+}
